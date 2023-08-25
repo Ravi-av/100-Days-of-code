@@ -11,7 +11,7 @@ bool search(int arr[],int size,int key){
 int main()
 {
 int arr[10]={3,4,-2,8,9,5,1,7,6,11};
-cout<<"enter the element to search for "<<endl;
+cout<<"enter the element to search for "<<endl; 
 int key;
 cin>>key;
 bool found= search(arr,10,key);
